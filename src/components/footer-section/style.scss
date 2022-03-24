@@ -1,0 +1,177 @@
+.footer-background{
+  background-color: #0e0b16;
+  height: 40rem;
+
+  .footer-container{
+    width: 80rem;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+
+    .footer-sobre{
+      width: 20%;
+      margin-top:5rem;
+      
+      text-align: justify;
+
+      h3{
+        font-size:1.5rem;
+        color: crimson;
+      }
+
+      p{
+        font-weight: 400;
+        margin-top:1.3rem;
+        color: white;
+    
+      }
+    
+      .footer-items{
+        display: flex;
+        align-items: center;
+        height: 2rem;
+
+        div{
+          font-size: 1rem;
+          color: rgb(238, 43, 82);
+          margin-left: 0.313rem;
+          margin-top:1.438rem;
+        }
+
+      }
+    }
+
+    .footer-info{
+      width: 15%;
+      margin-top:5rem;
+
+      h3{
+        font-size:1.5rem;
+        color: crimson;
+      }
+
+      ul{
+        list-style: none;
+        margin-top:1.3rem;
+        
+        li{
+          margin-top: 0.625rem;
+          
+          a{
+            text-decoration: none;
+            color: white;
+  
+            transition: 0.2s;
+          
+            &:hover{
+              color: crimson;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer-copyright{
+    width: 19%;
+    margin: 5.625rem auto 0 auto;
+    
+    color: rgb(169, 137, 221);
+    text-align: center;
+
+    h4{
+      margin-top: 1.25rem;
+      cursor: default;
+    }
+
+    .footer-copyright-icons{
+      display:flex;
+      justify-content:space-between;
+      align-items: center;
+      
+      font-size:2rem;
+
+      span{
+        transition: .3s;
+        
+        &:hover{
+          color:rgb(245, 47, 86);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width : 768px) {
+  .footer-background{
+    height: 185rem;
+  
+    .footer-container{
+
+      flex-direction: column;
+      align-items: flex-start;
+  
+      .footer-sobre{
+        width: 80%;
+        margin-top: 8rem;
+  
+        h3{
+          font-size: 4rem;
+        }
+  
+        p{
+          font-size:2.5rem;
+          margin-top:1.3rem;
+        }
+      
+        .footer-items{
+          height: 5rem;
+  
+          div{
+            font-size: 2.5rem;
+            margin-left: 0.7rem;
+            margin-top: 1.5rem;
+          }
+  
+        }
+      }
+  
+      .footer-info{
+        width: 30%;
+        margin-top:6rem;
+  
+        h3{
+          font-size:4rem;
+        }
+  
+        ul{
+          list-style: none;
+          margin-top:2.6rem;
+          
+          li{
+            margin-top: 0.625rem;
+            
+            a{
+              font-size: 2.5rem;
+            }
+          }
+        }
+      }
+    }
+  
+    .footer-copyright{
+      width: 40%;
+      margin: 12rem auto 0 auto;
+      
+      h4{
+        margin-top: 1rem;
+        font-size: 2.5rem;
+      }
+  
+      .footer-copyright-icons{
+        font-size: 5rem;
+      }
+    }
+  }
+}

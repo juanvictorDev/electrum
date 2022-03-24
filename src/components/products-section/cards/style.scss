@@ -1,0 +1,26 @@
+.cards-container{
+  width: 80rem;
+  height: 27rem;
+  margin: 0.625rem auto;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width : 768px) {
+  .cards-container{
+    width: 85rem;
+    height: 108rem;
+    margin: 0.625rem auto;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width : 560px) {
+  .cards-container{
+    height: 130rem;
+  }
+}

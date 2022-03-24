@@ -1,0 +1,21 @@
+.highlights-container{
+  width: 80rem;
+  height: 16rem;
+  margin: 2.5rem auto;
+  overflow: hidden;
+  
+
+  display: flex;
+  justify-content:space-between;
+}
+
+@media (max-width: 768px) {
+  .highlights-container{
+    width: 100vw;
+    height: 130rem;
+    margin: 7rem auto;
+    
+    flex-direction: column;
+    align-items:center;
+  }
+};

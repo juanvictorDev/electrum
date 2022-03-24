@@ -1,0 +1,144 @@
+.card-container{
+  height: 100%;
+  width: 23%;
+
+  border-radius: 1.25rem;
+  box-shadow: 0 0 1.25rem rgba(219, 219, 219, 0.705);
+
+  .product-container{
+    height: 65%;
+    width: 100%;
+
+    img{
+      object-fit: contain;
+      border-radius: 1.25rem;
+    }
+  }
+
+  .category{
+    text-align: center;
+    color: gray;
+  }
+
+  .infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+    height: 30%;
+    border-radius: 0 0 1.25rem 1.25rem;
+    background-color: #1a1329;    
+    
+    p{
+      color: rgb(238, 40, 80);
+      font-size: 1.5rem;
+      font-weight:700;
+      padding-top: 0.125rem;
+    }
+
+    h3{
+      padding-top: 0.625rem;
+      font-size: 1.3rem
+    }
+
+    .btn{
+      height: 2rem;
+      width: 8rem;
+      margin-top: 0.313rem;
+
+      border: none;
+      border-radius: 0.625rem;
+      cursor: pointer;
+
+      font-size: 1rem;
+      font-weight: 700;
+      
+      color: white;
+      background-color: crimson;
+      box-shadow: 0 0.313rem 0 rgb(177, 17, 49);
+
+      transition: .3s;
+
+      &:hover{
+        background-color: rgb(177, 17, 49);
+        box-shadow: 0 0.313rem 0 rgb(136, 15, 39);
+      }
+    }
+  }
+}
+
+@media (max-width : 768px) {
+  .card-container{
+    height: 47%;
+    width: 48%;
+    box-shadow: 0 0 2rem rgba(180, 179, 179, 0.568);
+    border-radius: 1.25rem;
+  
+    .category{
+      font-size: 2.5rem;
+    }
+  
+    .infos{
+      p{
+        font-size: 3rem;
+      }
+  
+      h3{
+        padding-top: 1rem;
+        font-size: 2.5rem
+      }
+  
+      .btn{
+        height: 4rem;
+        width: 16rem;
+        margin-top: 0.313rem;
+        border-radius: 1.5rem;
+        font-size: 2.1rem;
+        box-shadow: 0 0.626rem 0 rgb(177, 17, 49);
+      }
+    }
+  }
+}
+
+@media (max-width : 560px) {
+  .card-container{
+    height: 47%;
+    width: 48%;
+    box-shadow: 0 0 3rem rgba(180, 179, 179, 0.568);
+    border-radius: 4rem;
+
+    .product-container{
+      img{
+        border-radius: 4rem;
+      }
+    }
+  
+    .category{
+      font-size: 3rem;
+    }
+  
+    .infos{
+
+      border-radius: 0 0 4rem 4rem;
+      
+      p{
+        font-size: 3.5rem;
+      }
+  
+      h3{
+        padding-top: 1rem;
+        font-size: 3rem
+      }
+  
+      .btn{
+        height: 5.5rem;
+        width: 20rem;
+        margin-top: 0.313rem;
+        border-radius: 1.5rem;
+        font-size: 3rem;
+        box-shadow: 0 0.626rem 0 rgb(177, 17, 49);
+      }
+    }
+  }
+}
