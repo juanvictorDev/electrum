@@ -3,10 +3,10 @@
 </div>
 
 <h3 align="center">🔹Descrição🔹</h3>
-<p align="center">Front End da página Home de uma loja fictícia de produtos eletronicos, feita em ReactJS para otimização <br> do tempo de densevolvimento utilizando a componentização que a biblioteca possui, e também <br> para a evolução individual treinando a tecnologia como um todo.</p>
+<p align="center">Front-End da página Home de uma loja fictícia de produtos eletrônicos, feita em ReactJS para otimização <br> do tempo de desenvolvimento utilizando a componentização que a biblioteca possui, e também <br> para a evolução individual treinando a tecnologia como um todo.</p>
 
 <div align="center">
-  <a href="https://electrum-juanvictordev.netlify.app/" target="_blank">
+  <a href="https://electrum-juanvictordev.netlify.app/">
     <img height="70" src="https://user-images.githubusercontent.com/92947069/161645928-cf9fff90-4162-47a0-b507-184ffba41ada.png" />
   </a>
 </div>
@@ -26,7 +26,6 @@
 <h3 align="center">🔹Responsividade🔹</h3>
 
 <div align="center">
-<br>
  
  ![electrum-responsivo](https://user-images.githubusercontent.com/92947069/161673016-5ab8ffc4-949a-432e-9cde-ec1be1fdde99.gif)
 
